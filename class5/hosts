@@ -1,0 +1,15 @@
+[web]
+
+master ansible_host=67.205.184.89
+
+worker1 ansible_host=137.184.106.230
+
+[aws]
+
+worker2 ansible_host=3.20.204.57  ansible_user=ec2-user
+
+worker3 ansible_host=3.142.46.65  ansible_user=ec2-user
+
+[gcp]
+
+worker4 ansible_host=34.125.64.107  ansible_user=gulshanalmasbekova
